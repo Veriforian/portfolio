@@ -3,10 +3,9 @@
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
 version: 2
-version: 2
 jobs:
   build:
-    - run: 
+    - run:
         name: Build webpack
         command: NPM_CONFIG_PRODUCTION=false npm install && npm run build
   deploy:
