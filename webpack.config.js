@@ -9,8 +9,6 @@ module.exports = {
 		filename: 'index_bundle.js',
 		publicPath: '/'
 	},
-	target: 'node',
-	externals: [nodeExternals()],
 	module: {
 		rules: [
 			{
