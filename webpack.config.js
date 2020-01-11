@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const nodeExternals = require('webpack-node-externals');
 const path = require('path');
 
 module.exports = {
@@ -8,6 +9,8 @@ module.exports = {
 		filename: 'index_bundle.js',
 		publicPath: '/'
 	},
+	target: 'node',
+	externals: [nodeExternals()],
 	module: {
 		rules: [
 			{
