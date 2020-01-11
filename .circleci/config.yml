@@ -5,9 +5,7 @@
 version: 2
 jobs:
   build:
-    - run:
-        name: Build webpack
-        command: NPM_CONFIG_PRODUCTION=false npm install && npm run build
+    - run: yarn heroku-postbuild
   deploy:
     docker:
       - image: buildpack-deps:trusty
