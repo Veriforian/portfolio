@@ -10,11 +10,6 @@ import {
 
 import changeNav from './changeNav';
 import skillsStyles from '../themes/skillsTheme';
-import cssImg from '../../assets/images/css.png';
-import htmlImg from '../../assets/images/html.png';
-import jsImg from '../../assets/images/js.svg';
-import reactImg from '../../assets/images/react.png';
-import reduxImg from '../../assets/images/redux.svg';
 
 function Skills() {
 	const classes = skillsStyles();
@@ -28,29 +23,45 @@ function Skills() {
 						<Divider className={classes.divider} />
 						<List>
 							<ListItem>
-								<img className={classes.logo} src={reactImg} alt="react logo" />
+								<img
+									className={classes.logo}
+									src="src/assets/images/react.png"
+									alt="react logo"
+								/>
 								<ListItemText primary="React" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
-								<img className={classes.logo} src={reduxImg} alt="redux logo" />
+								<img
+									className={classes.logo}
+									src="src/assets/images/redux.svg"
+									alt="redux logo"
+								/>
 								<ListItemText primary="Redux" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
-								<img className={classes.logo} src={htmlImg} alt="html logo" />
+								<img
+									className={classes.logo}
+									src="src/assets/images/html.png"
+									alt="html logo"
+								/>
 								<ListItemText primary="Html" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
-								<img className={classes.logo} src={cssImg} alt="css logo" />
+								<img
+									className={classes.logo}
+									src="src/assets/images/css.png"
+									alt="css logo"
+								/>
 								<ListItemText primary="Css/Scss" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src={jsImg}
+									src="src/assets/images/js.svg"
 									alt="javascript logo"
 								/>
 								<ListItemText primary="Javascript" />
