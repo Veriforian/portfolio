@@ -25,7 +25,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/react.png"
+									src="../../assets/images/react.png"
 									alt="react logo"
 								/>
 								<ListItemText primary="React" />
@@ -34,7 +34,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/redux.svg"
+									src="../../assets/images/redux.svg"
 									alt="redux logo"
 								/>
 								<ListItemText primary="Redux" />
@@ -43,7 +43,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/html.png"
+									src="../../assets/images/html.png"
 									alt="html logo"
 								/>
 								<ListItemText primary="Html" />
@@ -52,7 +52,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/css.png"
+									src="../../assets/images/css.png"
 									alt="css logo"
 								/>
 								<ListItemText primary="Css/Scss" />
@@ -61,7 +61,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/js.svg"
+									src="../../assets/images/js.svg"
 									alt="javascript logo"
 								/>
 								<ListItemText primary="Javascript" />
@@ -77,7 +77,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/react.png"
+									src="../../assets/images/react.png"
 									alt="react logo"
 								/>
 								<ListItemText primary="React" />
@@ -86,7 +86,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/redux.svg"
+									src="../../assets/images/redux.svg"
 									alt="redux logo"
 								/>
 								<ListItemText primary="Redux" />
@@ -95,7 +95,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/html.png"
+									src="../../assets/images/html.png"
 									alt="html logo"
 								/>
 								<ListItemText primary="Html" />
@@ -104,7 +104,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/css.png"
+									src="../../assets/images/css.png"
 									alt="css logo"
 								/>
 								<ListItemText primary="Css/Scss" />
@@ -113,7 +113,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/js.svg"
+									src="../../assets/images/js.svg"
 									alt="javascript logo"
 								/>
 								<ListItemText primary="Javascript" />
@@ -129,7 +129,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/react.png"
+									src="../../assets/images/react.png"
 									alt="react logo"
 								/>
 								<ListItemText primary="React" />
@@ -138,7 +138,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/redux.svg"
+									src="../../assets/images/redux.svg"
 									alt="redux logo"
 								/>
 								<ListItemText primary="Redux" />
@@ -147,7 +147,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/html.png"
+									src="../../assets/images/html.png"
 									alt="html logo"
 								/>
 								<ListItemText primary="Html" />
@@ -156,7 +156,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/css.png"
+									src="../../assets/images/css.png"
 									alt="css logo"
 								/>
 								<ListItemText primary="Css/Scss" />
@@ -165,7 +165,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="/src/assets/images/js.svg"
+									src="../../assets/images/js.svg"
 									alt="javascript logo"
 								/>
 								<ListItemText primary="Javascript" />

@@ -5,7 +5,7 @@ export const landingStyles = makeStyles(theme => ({
 		height: '100%',
 		paddingBottom: '16px',
 		background:
-			'url("src/assets/images/Webp.net-resizeimage-min.jpg") no-repeat center center fixed',
+			'url("../../assets/images/Webp.net-resizeimage-min.jpg") no-repeat center center fixed',
 		webkitBackgroundSize: 'cover',
 		mozBackgroundSize: 'cover',
 		oBackgroundSize: 'cover',
