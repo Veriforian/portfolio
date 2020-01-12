@@ -1,10 +1,13 @@
 import { makeStyles } from '@material-ui/core/styles';
 
+import landingImg from '../../assets/images/landing.jpg';
+
 export const landingStyles = makeStyles(theme => ({
 	intro: {
 		height: '100%',
 		paddingBottom: '16px',
-		background: `url("src/assets/images/landing.jpg") no-repeat center center fixed`,
+		background: `url(${'images/landing.jpg' ||
+			'src/assets/images/landing.jpg'}) no-repeat center center fixed`,
 		webkitBackgroundSize: 'cover',
 		mozBackgroundSize: 'cover',
 		oBackgroundSize: 'cover',

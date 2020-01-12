@@ -10,6 +10,11 @@ import {
 
 import changeNav from './changeNav';
 import skillsStyles from '../themes/skillsTheme';
+import cssImg from '../../assets/images/css.png';
+import htmlImg from '../../assets/images/html.png';
+import jsImg from '../../assets/images/js.svg';
+import reactImg from '../../assets/images/react.png';
+import reduxImg from '../../assets/images/redux.svg';
 
 function Skills() {
 	const classes = skillsStyles();
@@ -25,7 +30,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="src/assets/images/react.png"
+									src={'images/react.png' || 'src/assets/images/react.png'}
 									alt="react logo"
 								/>
 								<ListItemText primary="React" />
@@ -34,7 +39,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="src/assets/images/redux.svg"
+									src={'images/redux.svg' || 'src/assets/images/redux.svg'}
 									alt="redux logo"
 								/>
 								<ListItemText primary="Redux" />
@@ -43,7 +48,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="src/assets/images/html.png"
+									src={'images/html.png' || 'src/assets/images/html.png'}
 									alt="html logo"
 								/>
 								<ListItemText primary="Html" />
@@ -52,7 +57,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="src/assets/images/css.png"
+									src={'images/css.png' || 'src/assets/images/css.png'}
 									alt="css logo"
 								/>
 								<ListItemText primary="Css/Scss" />
@@ -61,7 +66,7 @@ function Skills() {
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="src/assets/images/js.svg"
+									src={'images/js.svg' || 'src/assets/images/js.svg'}
 									alt="javascript logo"
 								/>
 								<ListItemText primary="Javascript" />

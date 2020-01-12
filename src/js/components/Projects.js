@@ -28,7 +28,7 @@ function Projects(props) {
 					<Card className={classes.card} variant="outlined">
 						<CardMedia
 							className={classes.media}
-							image="images/Camper.JPG"
+							image={'images/Camper.JPG' || 'src/assets/images/Camper.JPG'}
 							title="Camper"
 						/>
 						<CardContent>
