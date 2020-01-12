@@ -14,6 +14,7 @@ import {
 	Language as LanguageIcon
 } from '@material-ui/icons';
 
+import campImg from '../../assets/images/Camper.JPG';
 import projectStyles from '../themes/projectTheme';
 import changeNav from './changeNav';
 
@@ -27,7 +28,7 @@ function Projects(props) {
 					<Card className={classes.card} variant="outlined">
 						<CardMedia
 							className={classes.media}
-							image="../../assets/images/Camper.JPG"
+							image={campImg}
 							title="Camper"
 						/>
 						<CardContent>

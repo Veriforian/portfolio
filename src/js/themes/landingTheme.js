@@ -1,11 +1,11 @@
 import { makeStyles } from '@material-ui/core/styles';
+import landingImg from '../../assets/images/Webp.net-resizeimage-min.jpg';
 
 export const landingStyles = makeStyles(theme => ({
 	intro: {
 		height: '100%',
 		paddingBottom: '16px',
-		background:
-			'url("../../assets/images/Webp.net-resizeimage-min.jpg") no-repeat center center fixed',
+		background: `url("${landingImg}") no-repeat center center fixed`,
 		webkitBackgroundSize: 'cover',
 		mozBackgroundSize: 'cover',
 		oBackgroundSize: 'cover',

@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -26,12 +27,15 @@ module.exports = {
 				test: /\.css$/i,
 				loader: 'css-loader',
 				options: {
-					url: false
+					url: true
 				}
 			},
 			{
-				test: /\.(png|svg|jpg|gif)$/,
-				use: ['file-loader']
+				test: /\.(jpe?g|png|gif|svg)$/i,
+				use: [
+					'file-loader?name=[name].[ext]&publicPath=./&outputPath=./images/',
+					'image-webpack-loader'
+				]
 			}
 		]
 	},
@@ -41,6 +45,7 @@ module.exports = {
 		historyApiFallback: true
 	},
 	plugins: [
+		new CleanWebpackPlugin(),
 		new HtmlWebPackPlugin({
 			template: './public/index.html',
 			filename: './index.html'
