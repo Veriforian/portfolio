@@ -10,19 +10,29 @@ import {
 
 import changeNav from './changeNav';
 import skillsStyles from '../themes/skillsTheme';
-import cssImg from '../../assets/images/css.png';
-import htmlImg from '../../assets/images/html.png';
-import jsImg from '../../assets/images/js.svg';
-import reactImg from '../../assets/images/react.png';
-import reduxImg from '../../assets/images/redux.svg';
+import '../../assets/images/css.png';
+import '../../assets/images/html.png';
+import '../../assets/images/js.svg';
+import '../../assets/images/react.png';
+import '../../assets/images/redux.svg';
+import '../../assets/images/express.svg';
+import '../../assets/images/mysql.svg';
+import '../../assets/images/passport.png';
+import '../../assets/images/mongodb.png';
+import '../../assets/images/nodejs.svg';
+import '../../assets/images/jest.svg';
+import '../../assets/images/git.svg';
+import '../../assets/images/circleci.png';
+import '../../assets/images/scrum.png';
+import '../../assets/images/typescript.svg';
 
 function Skills() {
 	const classes = skillsStyles();
 
 	return (
 		<div className={classes.root}>
-			<Grid container spacing={3} justify="center" alignItems="center">
-				<Grid item xs={12} sm={6} lg={4}>
+			<Grid container spacing={5} justify="center" alignItems="center">
+				<Grid className={classes.container} item xs={12} sm={6} lg={4}>
 					<div className={classes.list}>
 						<Typography variant="h3">Front End</Typography>
 						<Divider className={classes.divider} />
@@ -74,106 +84,113 @@ function Skills() {
 						</List>
 					</div>
 				</Grid>
-				<Grid item xs={12} sm={6} lg={4}>
+				<Grid className={classes.container} item xs={12} sm={6} lg={4}>
 					<div className={classes.list}>
-						<Typography variant="h3">Front End</Typography>
+						<Typography variant="h3">Back End</Typography>
 						<Divider className={classes.divider} />
 						<List>
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/react.png"
-									alt="react logo"
+									src={'images/nodejs.svg' || 'src/assets/images/nodejs.svg'}
+									alt="node.js logo"
 								/>
-								<ListItemText primary="React" />
+								<ListItemText primary="Node.js" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/redux.svg"
-									alt="redux logo"
+									src={'images/mongodb.png' || 'src/assets/images/mongodb.png'}
+									alt="mongo db logo"
 								/>
-								<ListItemText primary="Redux" />
+								<ListItemText primary="MongoDB" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/html.png"
-									alt="html logo"
+									src={'images/express.svg' || 'src/assets/images/express.svg'}
+									alt="express logo"
 								/>
-								<ListItemText primary="Html" />
+								<ListItemText primary="Express" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/css.png"
-									alt="css logo"
+									src={'images/mysql.svg' || 'src/assets/images/mysql.svg'}
+									alt="mysql logo"
 								/>
-								<ListItemText primary="Css/Scss" />
+								<ListItemText primary="MySQL" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/js.svg"
+									src={
+										'images/passport.png' || 'src/assets/images/passport.png'
+									}
 									alt="javascript logo"
 								/>
-								<ListItemText primary="Javascript" />
+								<ListItemText primary="Passport.js" />
 							</ListItem>
 						</List>
 					</div>
 				</Grid>
-				<Grid item xs={12} sm={6} lg={4}>
+				<Grid className={classes.container} item xs={12} sm={6} lg={4}>
 					<div className={classes.list}>
-						<Typography variant="h3">Front End</Typography>
+						<Typography variant="h3">Misc.</Typography>
 						<Divider className={classes.divider} />
 						<List>
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/react.png"
-									alt="react logo"
+									src={'images/jest.svg' || 'src/assets/images/jest.svg'}
+									alt="jest logo"
 								/>
-								<ListItemText primary="React" />
+								<ListItemText primary="Jest/Enzyme Unit/Integrated Testing" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/redux.svg"
-									alt="redux logo"
+									src={'images/git.svg' || 'src/assets/images/git.svg'}
+									alt="git logo"
 								/>
-								<ListItemText primary="Redux" />
+								<ListItemText primary="Git/Version Control" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/html.png"
-									alt="html logo"
+									src={
+										'images/circleci.png' || 'src/assets/images/circleci.png'
+									}
+									alt="circle ci logo"
 								/>
-								<ListItemText primary="Html" />
+								<ListItemText primary="CircleCI" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/css.png"
-									alt="css logo"
+									src={'images/scrum.png' || 'src/assets/images/scrum.png'}
+									alt="scrum logo"
 								/>
-								<ListItemText primary="Css/Scss" />
+								<ListItemText primary="Scrum/Agile Workflow" />
 							</ListItem>
 							<Divider className={classes.listDivider} />
 							<ListItem>
 								<img
 									className={classes.logo}
-									src="../../assets/images/js.svg"
-									alt="javascript logo"
+									src={
+										'images/typescript.svg' ||
+										'src/assets/images/typescript.svg'
+									}
+									alt="typescript logo"
 								/>
-								<ListItemText primary="Javascript" />
+								<ListItemText primary="TypeScript" />
 							</ListItem>
 						</List>
 					</div>
