@@ -1,3 +1,11 @@
+.imageFix {
+	height: 15rem;
+	width: auto;
+	border: 1px solid #f50057;
+	border-radius: 5%;
+	margin-right: 2rem;
+}
+
 @media screen and (max-width: 400px) {
 	.imageFix {
 		height: 11rem !important;
