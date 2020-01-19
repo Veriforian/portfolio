@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const projectStyles = makeStyles(theme => ({
 	media: {
 		height: 0,
-		paddingTop: '56.25%' // 16:9
+		paddingTop: '56.25%'
 	},
 	content: {
 		margin: '3rem'
